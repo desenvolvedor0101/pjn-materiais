@@ -74,7 +74,7 @@ const About = () => {
             <div className="relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/src/assets/mockup-PJN-materiais.PNG"
+                  src="/src/assets/mockuppjnmateriais.png"
                   alt="Mockup PJN Materiais de Construção"
                   className="w-full h-[500px] object-cover"
                 />

@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="lg:col-span-1">
                 <Link to="/" className="flex items-center space-x-1">
                           <div className="w-32 px-1 flex items-center justify-center">
-                            <img src="/src/assets/pjn-logo-02.png" alt="PJN Materiais Logo" className="hidden md:block w-32 p-1 rounded-lg" />
+                            <img src="/src/assets/pjnlogo02.png" alt="PJN Materiais Logo" className="hidden md:block w-32 p-1 rounded-lg" />
                           </div>                          
                 </Link>
                 <p className="text-background/90 mb-6 leading-relaxed">
