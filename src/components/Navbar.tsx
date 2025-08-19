@@ -40,10 +40,10 @@ const Navbar = () => {
           
           <Link to="/" className="flex items-center space-x-1 hover:transform hover:scale-105 transition-transform duration-300">
             <div className="w-16 h-14 px-1 rounded-lg flex items-center justify-center">
-              <img src="/public/logopjn2.png" alt="PJN Materiais Logo" className="hidden md:block w-16 p-1 rounded-lg" />
+              <img src="/logopjn2.png" alt="PJN Materiais Logo" className="hidden md:block w-16 p-1 rounded-lg" />
             </div>
             <div>
-              <img src="/public/logopjnname.png" alt="PJN Materiais Logo" className="w-24 md:w-24" />
+              <img src="/logopjnname.png" alt="PJN Materiais Logo" className="w-24 md:w-24" />
             </div>
             
           </Link>
