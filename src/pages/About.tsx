@@ -74,7 +74,7 @@ const About = () => {
             <div className="relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/src/assets/mockuppjnmateriais.png"
+                  src="/public/mockuppjnmateriais.png"
                   alt="Mockup PJN Materiais de Construção"
                   className="w-full h-[500px] object-cover"
                 />
@@ -101,8 +101,7 @@ const About = () => {
               <p className="text-lg leading-relaxed">
                 A PJN Materiais nasceu em 2024 com um objetivo claro: fornecer materiais de 
                 construção de alta qualidade com atendimento personalizado e eficiente. 
-                Começamos como uma pequena empresa familiar e crescemos para nos tornar uma 
-                referência no setor.
+                Lorem ipsum dolor sit amet. Cum incidunt assumenda non cupiditate rerum et nesciunt porro non autem modi rem dolor nisi ut voluptatem velit. Eos natus adipisci
               </p>
               
               <p className="text-lg leading-relaxed">
@@ -112,9 +111,7 @@ const About = () => {
               </p>
               
               <p className="text-lg leading-relaxed">
-                Ao longo dos anos, investimos continuamente em tecnologia, logística e capacitação 
-                da equipe para garantir que nossos clientes recebam não apenas produtos de qualidade, 
-                mas também o melhor atendimento e consultoria técnica do mercado.
+                Lorem ipsum dolor sit amet. Cum incidunt assumenda non cupiditate rerum et nesciunt porro non autem modi rem dolor nisi ut voluptatem velit. Eos natus adipisci aut molestiae distinctio qui voluptatum maxime ut nulla reiciendis ea quas possimus aut voluptas itaque quo explicabo repudiandae.
               </p>
             </div>
           </div>
@@ -243,7 +240,7 @@ const About = () => {
                 },
                 {
                   title: 'Logística Eficiente',
-                  description: 'Equipe de entrega treinada para garantir pontualidade e cuidado no transporte.'
+                  description: 'Lorem ipsum dolor sit amet. Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut.'
                 }
               ].map((item, index) => (
                 <div key={index} className="space-y-4">

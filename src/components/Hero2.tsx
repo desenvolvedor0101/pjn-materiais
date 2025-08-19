@@ -34,7 +34,7 @@ const Hero2 = () => {
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
           
-          <div className="space-y-8 animate-slide-in-right">
+          <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-foreground">
                 PJN Materiais de{" "}
@@ -42,8 +42,8 @@ const Hero2 = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Fornecedor confiável com experiência sólida na venda de materiais de construção. Agregados, areias 
-                e materiais especializados com entrega rápida, com qualidade e atendimento especializado. Atendemos obras de todos os portes.
+                Fornecedor confiável com experiência sólida na venda de materiais de construção. Agregados, areias
+                e materiais especializados com qualidade, entrega eficiente e atendimento especializado. Atendemos obras de todos os portes.
               </p>
             </div>
 

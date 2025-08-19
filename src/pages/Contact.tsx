@@ -82,8 +82,8 @@ const Contact = () => {
       icon: Clock,
       title: "Horário de Funcionamento",
       details: [
-        "Segunda à Sexta: 7:00 - 17:00",
-        "Sábado: 7:00 - 12:00",
+        "Segunda à Sexta: 7:00 - 18:00",
+        "Sábado: 8:00 - 16:00",
         "Domingo: Fechado",
       ],
       action: null,
@@ -171,7 +171,7 @@ const Contact = () => {
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
-                    <Label htmlFor="name">Nome Completo *</Label>
+                    <Label htmlFor="name">Nome Completo <span className="text-orange-500">*</span></Label>
                     <Input
                       id="name"
                       name="name"
@@ -186,7 +186,7 @@ const Contact = () => {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email *</Label>
+                      <Label htmlFor="email">Email <span className="text-orange-500">*</span></Label>
                       <Input
                         id="email"
                         name="email"
@@ -200,11 +200,12 @@ const Contact = () => {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Telefone</Label>
+                      <Label htmlFor="phone">Telefone <span className="text-orange-500">*</span></Label>
                       <Input
                         id="phone"
                         name="phone"
                         type="tel"
+                        required
                         value={formData.phone}
                         onChange={handleInputChange}
                         placeholder="(71) 98687-3417"
@@ -214,7 +215,7 @@ const Contact = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">Mensagem *</Label>
+                    <Label htmlFor="message">Mensagem <span className="text-orange-500">*</span></Label>
                     <Textarea
                       id="message"
                       name="message"
@@ -246,7 +247,7 @@ const Contact = () => {
                   </Button>
 
                   <p className="text-xs text-muted-foreground text-center">
-                    * Campos obrigatórios. Responderemos em até 2 horas úteis.
+                    * Campos obrigatórios. Responderemos em até 24 horas.
                   </p>
                 </form>
               </CardContent>
@@ -314,10 +315,10 @@ const Contact = () => {
               {/* Emergency Contact */}
               <Card className="card-elevated bg-gradient-primary border-primary/20">
                 <CardContent className="p-6 text-center">
-                  <h4 className="font-semibold mb-2 text-secondary">
+                  <h4 className="font-semibold mb-2 text-white">
                     Urgência na Obra?
                   </h4>
-                  <p className="text-sm text-muted mb-4">
+                  <p className="text-sm text-white mb-4">
                     Para emergências, ligue diretamente:
                   </p>
                   <Button
