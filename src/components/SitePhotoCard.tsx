@@ -1,6 +1,6 @@
 import FloatingCard from "./FloatingCard";
 import { Play, Shield } from "lucide-react";
-import constructionSite from "@/assets/hero-construction.jpg";
+import constructionSite from "@/assets/hero-construction.webp";
 
 const SitePhotoCard = () => {
   return (

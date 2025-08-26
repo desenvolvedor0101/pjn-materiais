@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ShoppingBag } from "lucide-react";
-import heroImage from '@/assets/hero-construction.jpg';
+import heroImage from '/construcao.webp';
 import ProfileCard from "./ProfileCard";
 import DashboardCard from "./DashboardCard";
 import StatsCard from "./StatsCard";

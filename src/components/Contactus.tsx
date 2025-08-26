@@ -86,8 +86,8 @@ const Contactus = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              Solicite seu orçamento hoje
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 hero-title">
+              Solicite seu <span className="gradient-text">orçamento</span> hoje
             </h2>
             <div className="w-24 h-1 bg-gradient-primary mx-auto mb-3"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

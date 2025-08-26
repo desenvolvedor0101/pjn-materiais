@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ShoppingBag, Star } from 'lucide-react';
-import heroImage from '@/assets/hero-construction.jpg';
+import heroImage from '@/assets/hero-construction.webp';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {

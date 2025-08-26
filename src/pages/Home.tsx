@@ -15,10 +15,10 @@ import {
   Contact,
 } from "lucide-react";
 import { Filter, Search } from "lucide-react";
-import brita0Image from "@/assets/brita-0-pó-de-brita.png";
-import brita01Image from "@/assets/brita-01.png";
-import quartzSandImage from "@/assets/fino-de-quartzo.png";
-import silicaSandBagImage from "@/assets/sílica.png";
+import brita0Image from "@/assets/brita-0-pó-de-brita.webp";
+import brita01Image from "@/assets/brita-01.webp";
+import quartzSandImage from "@/assets/fino-de-quartzo.webp";
+import silicaSandBagImage from "@/assets/sílica.webp";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import Hero2 from "@/components/Hero2";
@@ -165,7 +165,7 @@ const Home = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 hero-title">
               Por que escolher a{" "}
               <span className="gradient-text">PJN Materiais</span>?
             </h2>
@@ -199,7 +199,7 @@ const Home = () => {
       <section className="py-20 section-alt">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 hero-title">
               Como <span className="gradient-text">trabalhamos?</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -248,7 +248,7 @@ const Home = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 hero-title">
               <span className="gradient-text">Dicas rápidas</span> para sua obra
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -294,7 +294,7 @@ const Home = () => {
         </div>
       </section>
       <div id="produtos" className="text-center mb-2 mt-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-1">
+        <h2 className="text-3xl md:text-4xl font-bold mb-1 hero-title">
           Nossos <span className="gradient-text">produtos</span>
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -428,7 +428,7 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary to-primary-hover text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white hero-title">
             Pronto para começar seu projeto?
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">

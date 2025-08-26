@@ -1,6 +1,6 @@
 import FloatingCard from "./FloatingCard";
 import { Star } from "lucide-react";
-import projectManagerAvatar from "@/assets/hero-construction.jpg";
+import projectManagerAvatar from "@/assets/hero-construction.webp";
 
 const ProfileCard = () => {
   return (

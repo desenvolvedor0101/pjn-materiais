@@ -10,10 +10,10 @@ import {
   Users,
   FileText,
 } from "lucide-react";
-import brita0Image from "@/assets/brita-0-pó-de-brita.png";
-import brita01Image from "@/assets/brita-01.png";
-import quartzSandImage from "@/assets/fino-de-quartzo.png";
-import silicaSandBagImage from "@/assets/sílica.png";
+import brita0Image from "@/assets/brita-0-pó-de-brita.webp";
+import brita01Image from "@/assets/brita-01.webp";
+import quartzSandImage from "@/assets/fino-de-quartzo.webp";
+import silicaSandBagImage from "@/assets/sílica.webp";
 
 const Products = () => {
   const [activeFilter, setActiveFilter] = useState("todos");
@@ -107,8 +107,7 @@ const Products = () => {
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Linha completa de agregados, areias e materiais especializados
-              para todos os tipos de construção. Qualidade garantida e entrega
-              rápida.
+              para todos os tipos de construção. Qualidade garantida e material eficiente.
             </p>
           </div>
         </div>
@@ -245,7 +244,7 @@ const Products = () => {
       <section className="py-20 section-alt">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 hero-title">
               <span className="gradient-text">Qualidade</span> Garantida
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -299,7 +298,7 @@ const Products = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary to-primary-hover text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white hero-title">
             Não encontrou o que procura?
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">

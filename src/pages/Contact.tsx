@@ -292,14 +292,6 @@ const Contact = () => {
                         icon: CheckCircle,
                         text: "Consultoria técnica especializada",
                       },
-                      {
-                        icon: CheckCircle,
-                        text: "Entrega rápida em Pojuca BA",
-                      },
-                      {
-                        icon: CheckCircle,
-                        text: "Condições especiais para grandes volumes",
-                      },
                     ].map((item, index) => (
                       <div key={index} className="flex items-center space-x-3">
                         <item.icon className="w-5 h-5 text-primary flex-shrink-0" />
@@ -341,7 +333,7 @@ const Contact = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8">
+            <h2 className="text-4xl font-bold mb-8 hero-title">
               Nossa <span className="gradient-text">Localização</span>
             </h2>
             <div className="bg-gray-100 rounded-xl overflow-hidden h-96">

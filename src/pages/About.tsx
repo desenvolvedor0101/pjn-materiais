@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Confiança',
-      description: 'Relacionamentos duradouros baseados em transparência, honestidade e cumprimento de prazos.'
+      description: 'Relacionamentos duradouros baseados em transparência, honestidade e cumprimento da qualidade do material.'
     },
     {
       icon: Award,
@@ -74,7 +74,7 @@ const About = () => {
             <div className="relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/mockuppjnmateriais.png"
+                  src="/engenheiro.webp"
                   alt="Mockup PJN Materiais de Construção"
                   className="w-full h-[500px] object-cover"
                 />
@@ -92,7 +92,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16 animate-fade-in-up">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 hero-title">
                 Nossa <span className="gradient-text">História</span>
               </h2>
             </div>
@@ -119,7 +119,7 @@ const About = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 section-alt">
+      <section className="py-20 bg-gradient-to-r from-primary to-primary-hover">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <Card className="card-elevated">
@@ -162,7 +162,7 @@ const About = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 hero-title">
               Nossos <span className="gradient-text">Valores</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -189,10 +189,11 @@ const About = () => {
       </section>
 
       {/* Achievements Section */}
+      {/*
       <section className="py-20 bg-gradient-to-r from-primary to-primary-hover text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white hero-title">
               Nossos Números
             </h2>
             <p className="text-lg opacity-90 max-w-2xl mx-auto">
@@ -215,11 +216,11 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
+       Team Section 
       <section className="py-20 section-alt bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 hero-title">
               <span className="gradient-text">Equipe</span> Especializada
             </h2>
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
@@ -256,7 +257,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   );
 };

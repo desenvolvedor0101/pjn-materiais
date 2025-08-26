@@ -8,7 +8,6 @@ const Footer = () => {
     { label: "Início", href: "#inicio" },
     { label: "Sobre Nós", href: "#inicio" },
     { label: "Produtos", href: "#produtos" },
-    { label: "Avaliações", href: "#testimonials" },
     { label: "Contato", href: "#contato" }
   ];
 
@@ -46,7 +45,7 @@ const Footer = () => {
                 </Link>
                 <p className="text-background/90 mb-6 leading-relaxed">
                 Seu parceiro de confiança para materiais de construção premium.
-                Qualidade garantida, entregue no prazo, sempre.
+                Qualidade garantida sempre.
                 </p>
               
               {/* Social Links */}
@@ -109,9 +108,8 @@ const Footer = () => {
                   <Clock size={18} className="text-primary mt-1 flex-shrink-0" />
                   <div>
                     <div className="text-background/90 text-sm">
-                      <div>Seg-Sex: 07:00 - 18:00</div>
-                      <div>Sábado: 08:00 - 16:00</div>
-                      <div>Domingo: Fechado</div>
+                      <div>Seg - Sex: 08:00 - 17:00</div>
+                      <div>Sába. e Dom.: Fechado</div>
                     </div>
                   </div>
                 </div>
@@ -143,8 +141,8 @@ const Footer = () => {
                 <div className="flex items-start gap-3">
                   <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
                   <div className="text-background/90 text-sm">
-                    <div>123 Avenida Pojuca</div>
-                    <div>Pindamonhangaba, Pojuca - BA - 12345</div>
+                    <div>Pojuca, BA</div>
+                    <div>CEP: 48120-000, Bahia</div>
                   </div>
                 </div>
               </div>
