@@ -37,7 +37,7 @@ const Hero2 = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-foreground">
-                <span className="gradient-text">PJN Materiais</span> Qualidade para<br />Sua Construção
+                <span className="gradient-text">PJN Materiais</span> Qualidade para sua Construção
               </h1>
 
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
