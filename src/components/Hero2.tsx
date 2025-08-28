@@ -43,7 +43,7 @@ const Hero2 = () => {
 
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
                 Fornecedor confiável com experiência sólida na venda de materiais de construção. Agregados, areias
-                e materiais especializados com qualidade, entrega eficiente e atendimento especializado. Atendemos obras de todos os portes.
+                e materiais especializados com qualidade, eficácia e atendimento especializado. Atendemos obras de todos os portes.
               </p>
             </div>
 

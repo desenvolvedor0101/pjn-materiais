@@ -99,19 +99,15 @@ const About = () => {
 
             <div className="prose prose-lg max-w-none space-y-6 text-muted-foreground">
               <p className="text-lg leading-relaxed">
-                A PJN Materiais nasceu em 2024 com um objetivo claro: fornecer materiais de 
-                construção de alta qualidade com atendimento personalizado e eficiente. 
-                Lorem ipsum dolor sit amet. Cum incidunt assumenda non cupiditate rerum et nesciunt porro non autem modi rem dolor nisi ut voluptatem velit. Eos natus adipisci
+                A PJN Materiais nasceu em Pojuca, na Bahia, com um objetivo claro: facilitar o acesso a materiais de construção de qualidade. Tudo começou com determinação e a vontade de fazer diferente, oferecendo confiança e soluções práticas para quem transforma projetos em realidade.
               </p>
               
               <p className="text-lg leading-relaxed">
-                Nossa experiência abrange desde pequenos reparos residenciais até grandes obras 
-                comerciais e industriais. Trabalhamos com construtoras, arquitetos, engenheiros 
-                e proprietários, sempre com foco na satisfação total do cliente.
+                De um estoque modesto e muito empenho, construímos nossa reputação passo a passo, cliente a cliente, sempre com transparência e profissionalismo. Cada negociação e cada material fornecido refletem nosso compromisso com credibilidade, excelência e confiança, valores que fundamentam a PJN Materiais.
               </p>
               
               <p className="text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet. Cum incidunt assumenda non cupiditate rerum et nesciunt porro non autem modi rem dolor nisi ut voluptatem velit. Eos natus adipisci aut molestiae distinctio qui voluptatum maxime ut nulla reiciendis ea quas possimus aut voluptas itaque quo explicabo repudiandae.
+                Nossa história é feita de desafios superados e de crescimento constante, guiados pela missão de construir junto com você, ajudando cada projeto a se tornar realidade. Na PJN Materiais, cada fornecimento é parte da sua obra, da sua história e do seu sonho.
               </p>
             </div>
           </div>

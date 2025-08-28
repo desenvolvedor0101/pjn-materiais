@@ -67,12 +67,6 @@ const Contactus = () => {
       action: "mailto:contato@pjnmateriais.com.br"
     },
     {
-      icon: MapPin,
-      title: "Visite-nos",
-      details: ["123 Avenida Pojuca", "Pindamonhangaba, Pojuca - BA - 12345"],
-      action: "#"
-    },
-    {
       icon: Clock,
       title: "Horário de Funcionamento",
       details: ["Seg-Sex: 07:00 - 18:00", "Sab: 08:00 - 16:00, Dom: Fechado"],
@@ -234,7 +228,7 @@ const Contactus = () => {
 
               {/* Quick Call CTA */}
               <div className="bg-gradient-primary rounded-xl p-6 text-center shadow-glow">
-                <h4 className="text-xl font-semibold text-primary-foreground mb-2">
+                <h4 className="text-xl font-semibold text-primary-foreground mb-2 hero-title">
                   Precisa Conversar Conosco?
                 </h4>
                 <p className="text-primary-foreground/90 mb-4">
