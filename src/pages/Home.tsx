@@ -298,7 +298,7 @@ const Home = () => {
           Nossos <span className="gradient-text">produtos</span>
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Para Materiais de Construção
+          Materiais de Construção
         </p>
       </div>
       <section className="py-8 bg-background border-b border-border">

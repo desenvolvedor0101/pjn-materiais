@@ -82,9 +82,8 @@ const Contact = () => {
       icon: Clock,
       title: "Horário de Funcionamento",
       details: [
-        "Segunda à Sexta: 7:00 - 18:00",
-        "Sábado: 8:00 - 16:00",
-        "Domingo: Fechado",
+        "Segunda à Sexta: 8:00 - 17:00",
+        "Sábado e Domingo: Fechado",
       ],
       action: null,
     },
@@ -247,7 +246,7 @@ const Contact = () => {
                   </Button>
 
                   <p className="text-xs text-muted-foreground text-center">
-                    * Campos obrigatórios. Responderemos em até 24 horas.
+                    Responderemos em até 24 horas.
                   </p>
                 </form>
               </CardContent>

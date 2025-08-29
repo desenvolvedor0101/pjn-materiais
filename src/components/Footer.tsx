@@ -109,7 +109,7 @@ const Footer = () => {
                   <div>
                     <div className="text-background/90 text-sm">
                       <div>Seg - Sex: 08:00 - 17:00</div>
-                      <div>Sába. e Dom.: Fechado</div>
+                      <div>Sáb e Dom: Fechado</div>
                     </div>
                   </div>
                 </div>

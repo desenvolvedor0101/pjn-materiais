@@ -69,7 +69,7 @@ const Contactus = () => {
     {
       icon: Clock,
       title: "Horário de Funcionamento",
-      details: ["Seg-Sex: 07:00 - 18:00", "Sab: 08:00 - 16:00, Dom: Fechado"],
+      details: ["Seg-Sex: 07:00 - 18:00", "Sábado e Domingo: Fechado"],
       action: "#"
     }
   ];
@@ -183,7 +183,7 @@ const Contactus = () => {
                 </Button>
 
                 <p className="text-sm text-muted-foreground text-center">
-                  * Campos obrigatórios. Responderemos em até 24 horas.
+                  Responderemos em até 24 horas.
                 </p>
               </form>
             </div>
